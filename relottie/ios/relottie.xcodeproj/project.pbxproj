@@ -12,14 +12,14 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
-		14472E2AC010052F71E783E7 /* libPods-relottieTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 15C838BF0D93C540866213C0 /* libPods-relottieTests.a */; };
 		2D02E4BC1E0B4A80006451C7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		2D02E4BF1E0B4AB3006451C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		2DCD954D1E0B4F2C00145EB5 /* relottieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* relottieTests.m */; };
-		ACA785992A1E5AB88A774F8F /* libPods-relottie-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B730D434B47938092CBEA6A5 /* libPods-relottie-tvOSTests.a */; };
-		E6243E8D9EB4F7E74F6E1BBD /* libPods-relottie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 25E3E2524E71C301A37D73DA /* libPods-relottie.a */; };
-		FD3B3EABD2731AAB73A71293 /* libPods-relottie-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FE81A80CAC0F6FC03533BD2 /* libPods-relottie-tvOS.a */; };
+		66383E915CF944DF9B33FD87 /* Pods_relottie_tvOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C0D1D4C1FC63EBD91D19F3C /* Pods_relottie_tvOSTests.framework */; };
+		6C91FC283A183A5705CAC449 /* Pods_relottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E1D22421B7449FD1F1580E4 /* Pods_relottie.framework */; };
+		6E3D5A27792ED51DBF95446F /* Pods_relottie_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D75284993DC245F297E99DD /* Pods_relottie_tvOS.framework */; };
+		7BA2DD6BB0422BA2344DFD08 /* Pods_relottieTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AF72B07BCEFEBFC39C8712 /* Pods_relottieTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +44,7 @@
 		00E356EE1AD99517003FC87E /* relottieTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = relottieTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* relottieTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = relottieTests.m; sourceTree = "<group>"; };
+		0C0D1D4C1FC63EBD91D19F3C /* Pods_relottie_tvOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_relottie_tvOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07F961A680F5B00A75B9A /* relottie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = relottie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = relottie/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = relottie/AppDelegate.m; sourceTree = "<group>"; };
@@ -51,20 +52,19 @@
 		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = relottie/Images.xcassets; sourceTree = "<group>"; };
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = relottie/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = relottie/main.m; sourceTree = "<group>"; };
-		15C838BF0D93C540866213C0 /* libPods-relottieTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-relottieTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D0810A7A4CA7C806B765C9D /* Pods-relottie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-relottie.release.xcconfig"; path = "Target Support Files/Pods-relottie/Pods-relottie.release.xcconfig"; sourceTree = "<group>"; };
 		1E26369F32FCACA18EFC88A4 /* Pods-relottie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-relottie.debug.xcconfig"; path = "Target Support Files/Pods-relottie/Pods-relottie.debug.xcconfig"; sourceTree = "<group>"; };
 		2227FC89D15DE1338EB3FBFA /* Pods-relottieTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-relottieTests.release.xcconfig"; path = "Target Support Files/Pods-relottieTests/Pods-relottieTests.release.xcconfig"; sourceTree = "<group>"; };
 		23FE31897287FA9E17C0178F /* Pods-relottie-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-relottie-tvOS.debug.xcconfig"; path = "Target Support Files/Pods-relottie-tvOS/Pods-relottie-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
-		25E3E2524E71C301A37D73DA /* libPods-relottie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-relottie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E47B1E0B4A5D006451C7 /* relottie-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "relottie-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D02E4901E0B4A5D006451C7 /* relottie-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "relottie-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D75284993DC245F297E99DD /* Pods_relottie_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_relottie_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		548E1CF8B20DB10D8AD7C706 /* Pods-relottie-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-relottie-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-relottie-tvOSTests/Pods-relottie-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		5FE81A80CAC0F6FC03533BD2 /* libPods-relottie-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-relottie-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E1D22421B7449FD1F1580E4 /* Pods_relottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_relottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D3C20ADE67C5AD73EC239D3 /* Pods-relottieTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-relottieTests.debug.xcconfig"; path = "Target Support Files/Pods-relottieTests/Pods-relottieTests.debug.xcconfig"; sourceTree = "<group>"; };
 		8E6613793E0E19F1636A809D /* Pods-relottie-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-relottie-tvOSTests.debug.xcconfig"; path = "Target Support Files/Pods-relottie-tvOSTests/Pods-relottie-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9B28935346592FC5BFAF91D0 /* Pods-relottie-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-relottie-tvOS.release.xcconfig"; path = "Target Support Files/Pods-relottie-tvOS/Pods-relottie-tvOS.release.xcconfig"; sourceTree = "<group>"; };
-		B730D434B47938092CBEA6A5 /* libPods-relottie-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-relottie-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3AF72B07BCEFEBFC39C8712 /* Pods_relottieTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_relottieTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
 /* End PBXFileReference section */
@@ -74,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14472E2AC010052F71E783E7 /* libPods-relottieTests.a in Frameworks */,
+				7BA2DD6BB0422BA2344DFD08 /* Pods_relottieTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -82,7 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6243E8D9EB4F7E74F6E1BBD /* libPods-relottie.a in Frameworks */,
+				6C91FC283A183A5705CAC449 /* Pods_relottie.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,7 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD3B3EABD2731AAB73A71293 /* libPods-relottie-tvOS.a in Frameworks */,
+				6E3D5A27792ED51DBF95446F /* Pods_relottie_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,7 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACA785992A1E5AB88A774F8F /* libPods-relottie-tvOSTests.a in Frameworks */,
+				66383E915CF944DF9B33FD87 /* Pods_relottie_tvOSTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,10 +157,10 @@
 			children = (
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
-				25E3E2524E71C301A37D73DA /* libPods-relottie.a */,
-				5FE81A80CAC0F6FC03533BD2 /* libPods-relottie-tvOS.a */,
-				B730D434B47938092CBEA6A5 /* libPods-relottie-tvOSTests.a */,
-				15C838BF0D93C540866213C0 /* libPods-relottieTests.a */,
+				7E1D22421B7449FD1F1580E4 /* Pods_relottie.framework */,
+				4D75284993DC245F297E99DD /* Pods_relottie_tvOS.framework */,
+				0C0D1D4C1FC63EBD91D19F3C /* Pods_relottie_tvOSTests.framework */,
+				C3AF72B07BCEFEBFC39C8712 /* Pods_relottieTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -230,6 +230,7 @@
 				13B07F8C1A680F5B00A75B9A /* Frameworks */,
 				13B07F8E1A680F5B00A75B9A /* Resources */,
 				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				E6AE8553B252696240A454E8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -451,6 +452,70 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E6AE8553B252696240A454E8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-relottie/Pods-relottie-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework",
+				"${BUILT_PRODUCTS_DIR}/FBReactNativeSpec/FBReactNativeSpec.framework",
+				"${BUILT_PRODUCTS_DIR}/Folly/folly.framework",
+				"${BUILT_PRODUCTS_DIR}/RCTTypeSafety/RCTTypeSafety.framework",
+				"${BUILT_PRODUCTS_DIR}/React-Core/React.framework",
+				"${BUILT_PRODUCTS_DIR}/React-CoreModules/CoreModules.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTActionSheet/RCTActionSheet.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTAnimation/RCTAnimation.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTBlob/RCTBlob.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTImage/RCTImage.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTLinking/RCTLinking.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTNetwork/RCTNetwork.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTSettings/RCTSettings.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTText/RCTText.framework",
+				"${BUILT_PRODUCTS_DIR}/React-RCTVibration/RCTVibration.framework",
+				"${BUILT_PRODUCTS_DIR}/React-cxxreact/cxxreact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsi/jsi.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsiexecutor/jsireact.framework",
+				"${BUILT_PRODUCTS_DIR}/React-jsinspector/jsinspector.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactCommon/ReactCommon.framework",
+				"${BUILT_PRODUCTS_DIR}/Yoga/yoga.framework",
+				"${BUILT_PRODUCTS_DIR}/glog/glog.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-react-native/lottie_react_native.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DoubleConversion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBReactNativeSpec.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/folly.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTTypeSafety.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/React.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreModules.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTActionSheet.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTAnimation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTBlob.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTLinking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTNetwork.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTSettings.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RCTVibration.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/cxxreact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsi.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsireact.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/jsinspector.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactCommon.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/yoga.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/glog.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/lottie_react_native.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-relottie/Pods-relottie-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F3D80666A9B42274E07D600F /* [CP] Check Pods Manifest.lock */ = {
